@@ -1,0 +1,11 @@
+<h1> There are {{count}} words in your text </h1>
+<h1>Entered text</h1>
+<b> {{typed_fulltext}} </b>
+<h1> Word Count: </h1>
+
+{% for word, number_word in sortedwords %}
+
+<b> {{ word }} ------> {{number_word}} </b>
+</br>
+
+{% endfor %}
